@@ -28,8 +28,13 @@
         </form>
     </div>
 
-    <!-- Header -->
-    <h1 class="text-2xl font-bold mb-6">Car Dashboard</h1>
+    <!-- Header with Image -->
+    <div class="flex flex-col items-center mb-6">
+        <img src="{{ asset('favpng_0ec60d3c843ddf12f3335d79ed871fb9.png') }}" 
+             alt="Car Logo" 
+             class="w-32 h-32 mb-4">
+        <h1 class="text-2xl font-bold">Car Dashboard</h1>
+    </div>
 
     <!-- Add Car Form -->
     <div class="mb-8 p-6 rounded-lg border border-neutral-200 dark:border-neutral-700 bg-gray-50 dark:bg-neutral-800">
